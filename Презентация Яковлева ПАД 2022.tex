@@ -1,0 +1,122 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{subcaption}
+
+\usetheme{CambridgeUS}
+
+\definecolor{myNewColorA}{RGB}{126,12,110}
+\definecolor{myNewColorB}{RGB}{185,89,154}
+\setbeamercolor*{palette primary}{bg=grey}
+
+\mode {
+  \setbeamertemplate{background canvas}
+    [vertical shading][bottom=red!10,top=blue!10]
+  \usetheme{CambridgeUS}
+\usecolortheme{rose}
+}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=red,
+    filecolor=blue,      
+    urlcolor=black,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+
+\title[] 
+{My presentation}
+
+\subtitle{About cats}
+
+\author{Alena Iakovleva}}
+
+\institute{ 
+  Faculty of Computer Science \\
+  HSE University
+}
+
+\date{2022}
+
+\logo{\includegraphics[height=3cm]{/Users/aiakovleva/Documents/ACOS\ books/lab04/catt.png}}
+
+
+\AtBeginSection[]
+{
+  \begin{frame}
+    \frametitle{Table of Contents}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}
+\frametitle{Table of Contents}
+\tableofcontents
+\end{frame}
+
+\section{Why do I love cats}
+
+\begin{frame}
+\frametitle{Why do I love cats}
+
+\begin{itemize}
+    \item They are cute
+    \item They love me
+    \item Do we need more arguments?
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Picture of cute cat!} 
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{/Users/aiakovleva/Documents/ACOS\ books/lab04/catcat.png}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Videos with cats} 
+
+Here you go:
+\begin{itemize}
+    \item \href{https://www.youtube.com/watch?v=AoTvVf8Z_I8/}{The first one} 
+    \item \href{https://www.youtube.com/watch?v=-452p_9ESbM}{The second one} 
+    \item \href{https://www.youtube.com/watch?v=sn-S82mF_gw}{Last, but not least} 
+\end{itemize}
+
+
+\end{frame}
+
+
+\section{I also love dogs}
+
+\begin{frame}
+\frametitle{I really love dogs}
+
+\begin{block}{But I am not in a mood to look at them}
+I have some personal reasons not to do that, but I want you to know, that I really love them!
+\end{block}
+
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Thanks for attention!}
+
+I really enjoyed the course, now my Latex skill is much better. I am feeling more confident and I am sure that I will use it more often.
+
+\end{frame}
+
+
+\end{document}
